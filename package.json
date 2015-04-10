@@ -1,0 +1,32 @@
+{
+  "name": "last-index-matching",
+  "description": "find the index of the last element matching a predicate",
+  "version": "1.0.0-rc1",
+  "author": {
+    "name": "Kyle E. Mitchell",
+    "email": "kyle@kemitchell.com",
+    "url": "http://kemitchell.com/"
+  },
+  "bugs": "https://github.com/kemitchell/last-index-matching.js/issues",
+  "devDependencies": {
+    "tap": "^0.7.1"
+  },
+  "homepage": "https://github.com/kemitchell/last-index-matching.js",
+  "keywords": [
+    "arrays",
+    "find",
+    "predicate",
+    "search"
+  ],
+  "license": "Apache-2.0",
+  "main": "source/last-index-matching.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kemitchell/last-index-matching.js.git"
+  },
+  "scripts": {
+    "pre-commit": "npm run test",
+    "test": "tap ./test",
+    "travis-ci": "npm run pre-commit"
+  }
+}

@@ -8,7 +8,8 @@
     "check-versions": "^1.0.0",
     "jscs": "^1.12.0",
     "jshint": "^2.7.0",
-    "literate-assertions": "^0.1.1"
+    "jsmd-tape": "^0.1.0",
+    "tape": "^4.0.1"
   },
   "homepage": "https://github.com/kemitchell/last-index-matching.js",
   "keywords": [
@@ -24,7 +25,7 @@
     "check": "check-versions --check-module",
     "lint": "jshint last-index-matching.js && jscs last-index-matching.js",
     "pre-commit": "npm run lint && npm run check && npm run test",
-    "test": "literate-assertions < README.md | sed 's!last-index-matching!./!g' | node",
+    "test": "jsmd-tape README.md | sed 's!last-index-matching!./!g' | node",
     "travis-ci": "npm run pre-commit"
   }
 }

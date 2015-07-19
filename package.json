@@ -15,7 +15,7 @@
     "predicate",
     "search"
   ],
-  "license": "Apache-2.0",
+  "license": "MIT",
   "repository": "kemitchell/last-index-matching.js",
   "scripts": {
     "test": "jsmd-tape README.md | sed 's!last-index-matching!./!g' | node"

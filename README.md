@@ -1,9 +1,3 @@
-last-index-matching.js
-======================
-
-[![NPM version](https://img.shields.io/npm/v/last-index-matching.svg)](https://www.npmjs.com/package/last-index-matching)
-[![build status](https://img.shields.io/travis/kemitchell/last-index-matching.js.svg)](http://travis-ci.org/kemitchell/last-index-matching.js)
-
 Find the index of the last element matching a predicate.
 
 ```javascript

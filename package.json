@@ -6,6 +6,7 @@
   "bugs": "https://github.com/kemitchell/last-index-matching.js/issues",
   "devDependencies": {
     "jsmd-tape": "^0.1.0",
+    "standard": "^8.0.0",
     "tape": "^4.0.1"
   },
   "homepage": "https://github.com/kemitchell/last-index-matching.js",
@@ -18,6 +19,7 @@
   "license": "MIT",
   "repository": "kemitchell/last-index-matching.js",
   "scripts": {
-    "test": "jsmd-tape README.md | sed 's!last-index-matching!./!g' | node"
+    "test": "jsmd-tape README.md | sed 's!last-index-matching!./!g' | node",
+    "lint": "standard"
   }
 }
